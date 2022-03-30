@@ -1,4 +1,5 @@
-**__pycach__
 .vscode
 .idea
-venv/
+venv
+.env
+**__pycache__

@@ -1,0 +1,6 @@
+from flask import Flask
+
+from .series_route import bp_series
+
+def init_app(app: Flask):
+    app.register_blueprint(bp_series)
